@@ -1,0 +1,28 @@
+{
+  "name": "piar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmoyamur/PIAR.git"
+  },
+  "author": "Yeimy Moya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmoyamur/PIAR/issues"
+  },
+  "homepage": "https://github.com/dmoyamur/PIAR#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
