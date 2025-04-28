@@ -1,0 +1,27 @@
+.Datospersonales{
+    column-count: 2;
+    background-color: rgb(202, 175, 200);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h3{
+
+    color:black;
+}
+
+em{
+    margin-left: 10px;
+    width: 80px;
+    pad: 20px;
+}
+
+input{
+
+    width: calc(98%);
+}
+
+#advertencia{
+    font-size: 8px;
+    
+}

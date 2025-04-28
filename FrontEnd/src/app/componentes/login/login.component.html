@@ -1,0 +1,33 @@
+
+<div class="Inicio">
+    <div class ="Información General">
+        <img src="../images/Inicial.jpg">
+    </div>
+
+    <div class ="milogin">
+        <label class= datos>
+            <em>E-mail</em>
+            <br>
+            <input id="miemail" type="text" [(ngModel)]="email">
+        </label>
+        <br>
+        
+        <label class= datos>
+            <em>Password</em>
+            <br>
+            <input id="mipassword" type="text" [(ngModel)]="password">
+        </label>
+
+        <button type="submit" id="btnIniciarSesion">Iniciar Sesion </button>
+    </div>
+
+</div>
+<script src="../../../../../Backend/Models/validacion.js"></script>
+
+<ul class="rutasforms">
+    <li><div routerLink ="/datos-personales" >Datos Personales</div></li>
+    <li><div routerLink ="/entorno-educativo">Entorno Educativo</div></li>
+    <li><div routerLink ="/entorno-hogar">Entorno Hogar</div></li>
+</ul>
+
+<router-outlet></router-outlet>

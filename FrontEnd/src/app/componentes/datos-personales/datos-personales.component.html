@@ -1,0 +1,20 @@
+<form class="Datospersonales">
+    <h3>Datos Personales</h3>
+
+    <form [formGroup]="DatosPersonalesForm" (ngSubmit)="agregaralumno()">
+        <em>Nombres</em><input id="nombres" type="text" formControlName="nombres">
+        <em>Apellidos</em><input id="apellidos" type="text" formControlName="apellidos">
+        <em>Tipo de Documento</em> <input id="TipoDoc" type="text" formControlName="TipoDoc">
+        <em>Número de Documento</em> <input id="NoDoc" type="text" formControlName="NoDoc">
+        <em>Departamento de Residencia</em> <input id="DptoResid" type="text" formControlName="DptoResid">
+        <em>Ciudad de Residencia</em> <input id="CiudadResid" type="text" formControlName="CiudadResid">
+        <em>Barrio</em> <input id="Barrio" type="text" formControlName="Barrio">
+        <em>Dirección</em> <input id="Direccion" type="text" formControlName="Direccion">
+        <em>Teléfono</em> <input id="Telefono" type="text" formControlName="Telefono">
+        <em>E-mail</em> <input id="email" type="email" formControlName="email">
+        <button type="submit" [disabled]="DatosPersonalesForm.invalid">Agregar Datos</button>
+
+    </form> 
+
+<router-outlet></router-outlet>
+

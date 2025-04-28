@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(250, 201, 239);
+}
+
+h1{
+    position: flex;
+    text-align: center;
+    color: rgb(235, 134, 134);
+    font-size: 70px;
+
+}
+
+h2{
+    position: flex;
+    text-align: center;
+    color: rgb(199, 195, 195);
+    font-size: 30px;
+    padding: 0%;
+}
+
+h3{
+    position: flex;
+    text-align: center;
+    color: rgb(199, 195, 195);
+    font-size: 25px;
+}
+.Encabezado{
+    background-color: rgb(129, 141, 119);
+    margin-top: 0;
+}
+

@@ -1,4 +1,5 @@
 const mongoose = require ("mongoose")
+const { usuarioSchema } = require("./usuarioSchema")
 mongoose.connect("mongodb://127.0.0.1:27017/PIAR",{
     
 }).then(()=>{
@@ -8,19 +9,11 @@ mongoose.connect("mongodb://127.0.0.1:27017/PIAR",{
 })
 
 const Schema = mongoose.Schema
+exports.Schema = Schema
 
-const usuarioSchema = new Schema({
-    nombre:String,
-    email: {
-        type:String,
-        unique: true,
-        require: true
-    },
-    password: String,
-    rol: String, 
-})
+const Usuario=mongoose.model("Usuario", usuarioSchema);
 
-const Usuario=mongoose.model("Usuario", usuarioSchema)
+module.exports = Usuario; 
 
 const instancia = new Usuario
 

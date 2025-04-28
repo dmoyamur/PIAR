@@ -1,0 +1,28 @@
+<h1>NAVEGANDO HACIA UNA EDUCACION INCLUSIVA</h1>
+
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class ="mb-3">
+        <em>Nombre</em>
+        <br>
+        <input class="form-control" type="text" formControlName="nombre">
+    </div>
+    <br><br>
+    <div class ="mb-3">
+        <em>E-mail</em>
+        <br>
+        <input class="form-control" type="email" formControlName="email">
+    </div> 
+    <br><br>
+    <div class ="mb-3">
+        <em>Password</em>
+        <br>
+        <input class="form-control" type="password" formControlName="password">
+    </div>
+    <br><br>
+       
+    <input type="submit" value="Enviar" class="btn btn-info">
+    
+
+<script src="../../../../../Backend/Models/validacion.js"></script>
+
+<router-outlet></router-outlet>

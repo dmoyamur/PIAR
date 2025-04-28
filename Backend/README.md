@@ -4,4 +4,4 @@ Este proyecto quiere facilitar la labor de una maestra de educación especial pa
 
 Par la ejecución de éste proyecto se puede realizar usando:
 start
-node app.js
+npm run dev
